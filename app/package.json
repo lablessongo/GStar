@@ -1,0 +1,17 @@
+{
+    "name": "GStar",
+    "version": "0.0.1",
+    "productName": "GStar",
+    "description": "Github Stars Management Tool",
+    "main": "dist/electron.js",
+    "author": {
+        "name": "PC",
+        "email": ""
+    },
+    "dependencies": {
+        "electron-config": "^0.2.1",
+        "electron-is": "^2.4.0",
+        "electron-log": "^1.3.0",
+        "keytar": "^4.1.0"
+    }
+}
