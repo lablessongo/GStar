@@ -2,6 +2,7 @@ import { ipcMain, BrowserWindow, dialog } from "electron";
 import * as EVENTS from "../../shared/events";
 import fs from "fs";
 
+
 export const exportDataHandle = () => {
     ipcMain.on(EVENTS.SHOW_CHOOSE_DIRECTORY_DIALOG, event => {
         const currentWin = BrowserWindow.getFocusedWindow();
