@@ -1,5 +1,4 @@
 import { app, Menu, BrowserWindow } from "electron";
-
 const menuTemplate = [
     {
         label: "Application",
