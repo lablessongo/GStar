@@ -50,7 +50,6 @@ const menuTemplate = [
         ]
     }
 ];
-
 export const setAppMenu = () => {
     Menu.setApplicationMenu(Menu.buildFromTemplate(menuTemplate));
 };
