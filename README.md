@@ -78,4 +78,3 @@ npm run rebuild
 ```
 npm install -g --verbose electron
 ```
-
