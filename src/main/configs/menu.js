@@ -38,6 +38,7 @@ const menuTemplate = [
         ]
     },
     {
+        
         label: "View",
         submenu: [
             {
