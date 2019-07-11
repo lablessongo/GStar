@@ -25,7 +25,6 @@ function createSettingWindow(wins) {
                   hash: "/setting"
               })
     );
-
     // Open the DevTools.
     if (process.env.NODE_ENV === "development") {
         win.webContents.on("devtools-opened", () => {
