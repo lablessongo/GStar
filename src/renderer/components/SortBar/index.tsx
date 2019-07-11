@@ -6,7 +6,6 @@ import { Icon, Menu, Dropdown, Checkbox } from "antd";
 import IStore from "../../interface/IStore";
 import OrderBy from "../../enum/OrderBy";
 import Order from "../../enum/Order";
-
 const styles = require("./styles/index.less");
 
 interface SortBarProps {
