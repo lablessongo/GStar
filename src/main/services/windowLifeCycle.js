@@ -11,6 +11,7 @@ const windowLifeCycle = globalWin => {
         window.close();
     });
 
+    
     ipcMain.on(EVENTS.OPEN_SETTING_WIN, (event, arg) => {
         if (globalWin.setting) return;
         createSettingWindow(globalWin);
