@@ -63,5 +63,4 @@ function createMainWindow(wins) {
 
     return win;
 }
-
 export default createMainWindow;
