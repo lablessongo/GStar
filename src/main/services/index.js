@@ -9,4 +9,5 @@ const register = globalWin => {
     importDataHandle();
 };
 
+
 exports.register = register;
