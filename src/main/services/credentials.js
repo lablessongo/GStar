@@ -6,7 +6,6 @@ const keytar = require("keytar");
 const mainGetLocalCredentials = username => {
     return keytar.getPassword(CONSTANTS.APP, username).then(password => ({ username, password }));
 };
-
 const mainSaveCredentials = credentials => {
     return keytar.setPassword(CONSTANTS.APP, credentials.username, credentials.password);
 };
