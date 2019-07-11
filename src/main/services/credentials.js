@@ -20,7 +20,6 @@ const handleCredentialsEvents = () => {
             event.sender.send(EVENTS.GET_LOCAL_CREDENTIALS_REPLY, JSON.stringify(credentials));
         });
     });
-
     ipcMain.on(EVENTS.SAVE_CREDENTIALS_TO_SYSTEM, (event, arg) => {
         let credentials = JSON.parse(arg);
         mainSaveCredentials(credentials).then(() => {
