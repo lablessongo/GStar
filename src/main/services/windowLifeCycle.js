@@ -3,7 +3,6 @@ import * as EVENTS from "../../shared/events";
 import createMainWindow from "../windows/main";
 import createSettingWindow from "../windows/setting";
 import { exec } from "child_process";
-
 const windowLifeCycle = globalWin => {
     // handle open/close window events
     ipcMain.on(EVENTS.CLOSE_LOGIN, (event, arg) => {
